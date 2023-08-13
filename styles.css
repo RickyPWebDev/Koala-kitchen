@@ -283,15 +283,14 @@ form button {
 }
 
 
-
-@media only screen and (max-width:400px) {
+   @media only screen and (max-width:400px) {
 
     .banner {
       display:block;
       padding-left:5%;
       margin: auto;
       margin-top:2%;
-      width:520px;
+      width:250vw;
       height:35vh;
   } 
 
@@ -303,15 +302,23 @@ form button {
   }
 
 
-section {
-  margin-left:35%;
+section,h1 {
+  width:100%;
+  margin-left:40%;
   margin-right:auto;
+  font-size:30px;
+}
+
+.top-seo-copyrite{
+  width:100%;
+  text-align:center;
+  margin-left:40%;
 }
 
 
 #qr-code{
   margin-top:20px;
-  margin-left:10%;
+  margin-left:50%;
   margin-right:auto;
   width:250px;
   height:250px;
@@ -319,9 +326,11 @@ section {
 
 
 #qr-text{
+  width:100%;
 text-align:center;
-}
+margin-left:35%;
 
+}
 
 article{
   margin-left:45%;
@@ -330,7 +339,7 @@ article{
 
 .products-container {
   display:grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
 }
 
@@ -338,20 +347,20 @@ article{
   background-color: transparent;
   width: 300px;
   height: 300px;
-  margin-left:10;
+  margin-left:35%;
   padding:20%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 
 
-/* Responsive desing for form  */
-
 #panel {
+  width:100%;
   color:green;
   text-align:center;
   font-size:2rem;
-  padding-left:30%;
+  margin-left:65%;
+  margin-right:auto;
 }
  
 .form-container {
@@ -361,7 +370,7 @@ article{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left:25%;
+  padding-left:75%;
 }
 
 form {
@@ -398,7 +407,8 @@ form button {
 
 
 .rating{
-  margin-left:35%;
+  width:100%;
+  margin-left:65%;
   margin-right:auto;
   padding-left:10px;
 }
@@ -407,15 +417,19 @@ form button {
 .health{
   width:350px;
   height:250px;
-  margin-left:25%;
+  margin-left:75%;
   margin-right:auto;
 }
 
 .context {
-  margin-left:25%;
+  width:100%;
+  margin-left:65%;
   font-size:20px;
   padding:10px;
    
  }
 
-}
+
+
+   }
+
