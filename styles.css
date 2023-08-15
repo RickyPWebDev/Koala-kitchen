@@ -5,6 +5,39 @@
 
 }
 
+p{
+  font-size:20px;
+}
+
+.koala{
+font-size:30px;
+}
+
+h1{
+  font-size:30px;
+}
+
+.booking-form{
+  text-decoration:none;
+  border:solid black 2px;
+  border-radius:20px;
+  padding: 10px 20px;
+  background-color: #66023c;
+  animation: colorChange 3s infinite;
+  color:#f5f5f5;
+  box-shadow: 10px 10px 10px 5px black;
+
+}
+
+.booking-form:hover{
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.space {
+  margin-top:20px;
+  margin-bottom:50px;
+}
+
 /* Universal styling for body of document */
 body {
    font-family: 'Noto Serif JP', serif;
@@ -17,7 +50,7 @@ body {
     margin: auto;
     margin-top:2%;
     width:80%;
-    height:40vh;
+    height:35vh;
 } 
 
 .center {
@@ -31,7 +64,7 @@ span{
   color:blue;
 }
 
-.con {
+.con{
     position: relative; /* Relative positioning for the container */
   }
   
@@ -44,13 +77,6 @@ span{
     border:solid 1px;
     height: auto;
   }
-  
-  .text {
-    font-size:2.5em;
-    margin-left: 20%; /* Adjust the margin to create space next to the image */
-    padding:10px; /* Add padding for spacing between text and image */
-  }
-  
 
   .top-seo-copyrite{
     text-align:center;
@@ -62,7 +88,36 @@ section {
     width:80%;
     margin:auto;
     font-size:20px;
+}
+  
+  .text {
+    margin-left: 20%; /* Adjust the margin to create space next to the image */
+    padding:10px; /* Add padding for spacing between text and image */
+  }
+  
 
+  #qr-code{
+    margin-top:20px;
+    margin-left:42%;
+    margin-right:auto;
+    width:250px;
+    height:250px;
+  }
+
+
+#qr-text{
+  text-align:center;
+}
+
+h2{
+  text-align:center;
+}
+
+article {
+  margin-top:50px;
+  margin-left:5%;
+  margin-right:5%;
+  text-align:center;
 }
 
 
@@ -74,22 +129,20 @@ section {
 }
 
 .imgs {
-  width:250px;
-  height:250px;
+  width: 300px;
+  height:300px;
   border-radius:40%;
 }
 
 .products-img {
-  margin-top:30%;
-  padding:50px;
+  margin-top:20%;
 }
 
 
 .flip-box {
   background-color: transparent;
-  width: 300px;
+  width: 500px;
   height: 300px;
-  margin-left:10%;
   padding:10%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -166,9 +219,11 @@ hr {
 /* Form and response div style rules  */
 
 #panel {
-  color:red;
+  color:green;
   text-align:center;
   font-size:2rem;
+  margin-top:100px;
+  margin-bottom:0;
 }
  
 .form-container {
@@ -222,10 +277,23 @@ form button {
 
 @keyframes colorTransition {
   0% {
-      color: red;
+      color: #ae0c00;
   }
   100% {
-      color: purple;
+      color: #66023c;
+  }
+}
+
+
+@keyframes colorChange {
+  0% {
+    background-color: #66023c;
+  }
+  50% {
+    background-color: #ae0c00;
+  }
+  100% {
+    background-color: #66023c;
   }
 }
 
@@ -233,24 +301,7 @@ form button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Resposnive design for diffrent screen sizes   */
-
+/* Responsive design */
 
 @media only screen and (max-width:900px) {
 
@@ -259,7 +310,6 @@ form button {
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
   }
-  
 
   .context {
     float:clear;
@@ -271,7 +321,6 @@ form button {
      
    }
    
-   
    .health{
     float:clear;
      margin-left:15%;
@@ -280,8 +329,7 @@ form button {
      margin-bottom:10%;
    }
 
-}
-
+  }
 
    @media only screen and (max-width:400px) {
 
@@ -433,10 +481,11 @@ form button {
 
    }
 
-      @media screen and (-webkit-min-device-pixel-ratio:0) {
-        select:focus,
-        textarea:focus,
-        input:focus {
-          font-size: 16px;
-        }
-      }
+
+
+
+
+
+
+
+
