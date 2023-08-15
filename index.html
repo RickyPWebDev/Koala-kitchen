@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koala Kitchen</title>
     <link rel="stylesheet" href="styles.css">
    
@@ -26,7 +24,7 @@
 <div class="con">
     <img class="absolute-image" src="koala-kitchen.jpg" alt="Absolute Image">
     <div class="text">
-      <p>KOALA KITCHEN</p>
+      <p class="koala">KOALA KITCHEN</p>
     </div>
   </div>
   <br/><br/><br/>
@@ -39,26 +37,43 @@
                                 So, Come visit and enjoy the great taste of authetic asian street food. </p>
     <br/>
     
-    
+    <img  id="qr-code" src="qrcode_fb.png" alt="QR CODE to link to see updates"> 
+    <p id="qr-text"> Scan the QR code for our latest updates</p>
+     
   </section>
 
+ <article>
+  <h2>Come have a taste of homemade Asian street food </h2>
+  <br/>
+  <h2 class="space"><a href="#booking-form" class="booking-form"><b>Book Us Now!</b></a></h2>
+  <br/>
+  <p> Don't miss the chance to elevate your event with the charm of Asian street food. Contact us today to secure your date and discuss your personalized catering experience.
 
+    Get ready to embark on a culinary adventure that will leave your guests raving! Let us bring the spirit of Asian street food to your event, creating an unforgettable experience that will be talked about for years to come. Together, let's make your event a flavorful journey through the streets of Asia."</p>
+
+ </article>
+
+ <br/>
 
 
   <div class="products-container">
+
+  
 
     <div class="flip-box">
         <div class="flip-box-inner">
             <div class="flip-box-front">
                     <div class="products-img">
                          <img class="imgs" src="sticky-rice.jpg" alt="image of bolts">
-                         <p>- Sticky Rice</p> 
+                         <p>- Bamboo Sticky Rice</p> 
                     </div>
             </div>
     
             <div class="flip-box-back">
             
-            <h1>Put product description here</h1>  
+            <h1>Bamboo Sticky Rice</h1>
+            <p>Satisfy your cravings with our Bamboo Pork Sticky Rice! Immerse yourself in layers of indulgence 
+               succulent slow cooked pork, fragrant glutinous sticky rice, and aromatic spices.</p>  
                 
               
             </div>
@@ -74,13 +89,15 @@
             <div class="flip-box-front">
                     <div class="products-img">
                          <img class="imgs" src="buns.jpg" alt="image of nuts">
-                         <p>- pork buns</p> 
+                         <p>- Taiwanese Burger</p> 
                     </div>
             </div>
     
             <div class="flip-box-back">
             
-              <h1>Put product description here</h1>  
+              <h1>Taiwanese Burger</h1>
+              <p>Indulge in our tantalizing Taiwanese Burger! Succulent, marinated pork with pickled mustard stacked with fresh coriander all nestled between
+                 our fluffy homemade steamed Bao buns. A fusion delight that brings Taiwan's vibrant street food scene to your plate. Elevate your burger experience today!"</p>  
 
             </div>
         </div>
@@ -99,7 +116,9 @@
     
             <div class="flip-box-back">
             
-              <h1>Put product description here</h1>  
+              <h1>Freshly baked bread</h1>  
+              <p>"Experience culinary harmony with our mouthwatering Bánh Mi! Savor the fusion of tender, marinated chicken or delightful grilled cheese,
+                 crisp pickled carrot, and fresh coriander all embraced by our signature homemade bread roll and homemade relish. A symphony of flavors awaits in every bite. </p>
 
             </div>
         </div>
@@ -118,7 +137,9 @@
     
             <div class="flip-box-back">
 
-            <h1>Put product description here</h1>  
+            <h1>Sushi Rolls</h1>  
+            <p>Savor the art of Japanese cuisine with our meticulously crafted, freshly made sushi rolls. Each delicate roll is a masterpiece, 
+              combining the finest ingredients and skilled craftsmanship to create a symphony of flavors that dance on your palate. </p>
 
             </div>
         </div>
@@ -132,13 +153,15 @@
             <div class="flip-box-front">
                     <div class="products-img">
                          <img class="imgs" src="dumplings.jpg" alt="image of dumplings">
-                         <p>- dumplings</p> 
+                         <p>- Japanese Gyozas</p> 
                     </div>
             </div>
     
             <div class="flip-box-back">
             
-              <h1>Put product description here</h1>  
+              <h1>Japanese Gyozas</h1> 
+              <p>Savor the exquisite taste of Japanese Gyozas dumplings. Delicately wrapped embrace a harmonious blend of savory fillings, 
+                from succulent pork to vibrant veggies and spicy chicken, served with a dipping sauce to elevate your palate with each bite!"</p> 
 
             </div>
         </div>
@@ -170,6 +193,8 @@
 
 <div id="panel"></div>
 
+<a name="booking-form"></a>
+
  <div class="form-container">
 
   <form onsubmit="return false">
@@ -198,6 +223,7 @@
 </div>
 
 
+#booking-form
 
 
     <script src="script.js"></script>
