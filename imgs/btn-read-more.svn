@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="147" height="51" viewBox="0 0 147 51">
-  <g id="btn-read-more" transform="translate(-278 -2432)">
-    <path id="Rectangle_15" data-name="Rectangle 15" d="M0,0H147a0,0,0,0,1,0,0V26a25,25,0,0,1-25,25H25A25,25,0,0,1,0,26V0A0,0,0,0,1,0,0Z" transform="translate(278 2432)" fill="#de717e"/>
-    <text id="Read_more" data-name="Read more" transform="translate(352 2462)" fill="#f0f0ea" font-size="16" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.05em"><tspan x="-43" y="0">Read more</tspan></text>
-  </g>
-</svg>
