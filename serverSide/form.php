@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 }
 
-$to = 'rickyp_2007@hotmail.co.uk';
+ $to = ''; //Will put the clients email address here
 $subject = "New Email from" . $email
 
 if (mail($to, $subject, $message, $headers)){
